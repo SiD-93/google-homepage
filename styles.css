@@ -2,6 +2,8 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    padding-left: 27px;
+    padding-bottom: 10px;
     overflow: hidden;
 }
 
@@ -24,12 +26,21 @@ li a:hover {
   text-decoration: underline;
 }
 
+#me {
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
 #foot {
   overflow: hidden;
-  margin: 0;
-  padding: 0;
+  /*margin: 0;
+  padding: 0;*/
+  height: 35px;
   background-color: #f2f2f2;
   position: fixed;
   bottom: 0;
-  width: inherit;
+  width: 100%;
 }
